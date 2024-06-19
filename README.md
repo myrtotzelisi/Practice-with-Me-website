@@ -23,5 +23,6 @@ The design and user interface of this website took inspiration from my brand as 
 
 This project was inspired by PedroTech's tutorial on building React applications. You can find the tutorial [here](https://www.youtube.com/watch?v=QwarZBtFoFA).
 
-
+## Preview
+<img src="https://github.com/myrtotzelisi/react-website-Practice-with-Me/blob/main/WebsitePreview.gif" alt="Website preview" width=50% />
 
