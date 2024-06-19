@@ -1,0 +1,84 @@
+.navbar {
+  background-color: #121619;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  min-width: 350px;
+  flex-direction:row;
+  position: sticky;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.navbar .rightSide {
+  flex: 50%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbar .leftSide img {
+  width: 70px;
+  padding-left: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  /* border: 2px solid red; */
+  margin-right: 10px;
+  margin-left: 15px;
+  padding: 5px;
+  white-space: wrap;
+  text-align: center;
+  padding: auto;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 20px;
+  /* border: 2px solid red; */
+  display: none;
+  width: auto;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+  /* border: 2px solid pink; */
+}
+
+.navbar .leftSide .hiddenLinks {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+  .navbar .rightSide button {
+    display: inherit;
+    text-align: center;
+  }
+
+  .navbar #open img {
+    display: none;
+  }
+
+  .navbar #open .hiddenLinks {
+    display: inherit;
+  }
+  .navbar #open #hiddenLink {
+   padding: 0;
+  }
+
+}
+
